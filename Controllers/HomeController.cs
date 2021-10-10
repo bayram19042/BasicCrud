@@ -22,7 +22,7 @@ namespace BasicCrud.Controllers
   
         public IActionResult Add(Product gelenurun)
         {
-           
+            //bu bir ekleme işlemidir
 
                 ETradeContext context = new ETradeContext();
 
