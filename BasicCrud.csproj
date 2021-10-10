@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\1.jpg" />
+    <Content Remove="wwwroot\img\1.png" />
+    <Content Remove="wwwroot\img\dog.jpg" />
+    <Content Remove="wwwroot\img\galata.jpg" />
+    <Content Remove="wwwroot\img\user.png" />
+    <Content Remove="wwwroot\img\user.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.0.0" />
+    <PackageReference Include="jQuery" Version="3.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\1.jpg" />
+    <None Include="wwwroot\img\1.png" />
+    <None Include="wwwroot\img\dog.jpg" />
+    <None Include="wwwroot\img\galata.jpg" />
+    <None Include="wwwroot\img\user.png" />
+    <None Include="wwwroot\img\user.svg" />
+    <None Include="wwwroot\style.css" />
+  </ItemGroup>
+
+</Project>
